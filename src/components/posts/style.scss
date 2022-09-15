@@ -1,0 +1,39 @@
+
+    .content-post{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 25px;
+        width: 100%;
+        padding: 32px;
+        background: #f9fbfd6b;
+        border-radius: 25px;
+        .details{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: flex-end;
+                gap: 25px;
+                width: 100%;
+                .details-posts{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 25px;
+                    width: 100%;
+                }
+                .details-reaction{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: flex-start;
+                    width: 100%;
+                    .reaction{
+                        display: flex;
+                        flex-direction: row;
+                        align-items: flex-start;
+                        gap: 5px;
+                    }
+                }
+            }
+    }
+    

@@ -1,10 +1,12 @@
 import './App.scss';
+import React from "react";
+import { Actuality } from './pages/actuality';
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div className='liste'>
+          <Actuality/>
+        </div>
   );
 }
 
